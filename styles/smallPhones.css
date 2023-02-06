@@ -1,0 +1,12 @@
+/* for screen size less than 410pxs */
+
+/* main containers width change */
+.container {
+    width: 80%;
+}
+
+/* myimage width change */
+.myImage {
+    width: 150px;
+    height: 150px;
+}

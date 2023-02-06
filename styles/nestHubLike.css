@@ -1,0 +1,42 @@
+/* for screensize below 1120px */
+
+.lowerProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lowerProfile h3 {
+    text-align: center;
+}
+
+.leftProfile {
+    width: 100%;
+    margin: 0 0 30px 0;
+}
+
+.myImage {
+    width: 200px;
+    height: 200px;
+}
+
+.rightProfile {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    width: 50%;
+}
+
+.container .subfieldName{
+    text-align: center;
+}
+
+.skills {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

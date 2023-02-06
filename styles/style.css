@@ -1,0 +1,241 @@
+body,
+p {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+/* first setting up a bg img */
+
+.topbgimg {
+    background: no-repeat center fixed url(../images/deadpool.jpg);
+    height: 100vh;
+    width: 100%;
+    filter: blur(2px);
+}
+
+/* then setting up home page  */
+
+.home {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home>section {
+    text-align: center;
+    color: white;
+    mix-blend-mode: difference;
+}
+
+.home>section h1 {
+    font-size: 5em;
+    line-height: 0%;
+}
+
+.home>section p {
+    font-size: 1.5em;
+}
+
+/* setting up the bottom right toggle button */
+
+.rightBottomCorner {
+    height: 90px;
+    width: 110px;
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+    background-color: white;
+}
+
+.rightBottomCorner>a {
+    text-decoration: none;
+}
+
+.rightBottomCorner img {
+    margin: 15px 23px;
+    width: 60px;
+    display: block;
+    animation-name: wiggle;
+    animation-duration: 1.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+/* now giving animations to it */
+
+@keyframes wiggle {
+	0% {
+		padding-top: 0px;
+	}
+	25% {
+		padding-top: 5px;
+	}
+    50%{
+        padding-top: 10px;
+    }
+    75% {
+        padding-top: 15px;
+    }
+    100% {
+        padding-top: 22px;
+    }
+}
+
+/* now setting up basics for rest of page */
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding: 2rem 0 5rem 0;
+}
+
+.container .head {
+    text-align: center;
+}
+
+.container .head h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.container .head p {
+    font-size: 1.5em;
+    margin: 0 0 1em 0;
+}
+
+.subfieldName {
+    font-size: 2rem;
+    line-height: 5rem;
+}
+
+.color {
+    background-color: #F3EFE0;
+}
+
+/* profile part */
+
+.lowerProfile {
+    display: flex;
+    margin: 6% 0 0;
+}
+
+.leftProfile {
+    width: 23%;
+    margin: 0 auto 0 0;
+}
+
+.myImage {
+    width: 300px;
+}
+
+.rightProfile {
+    width: 23%;
+    margin: 0 0 0 auto;
+}
+
+
+/* Setting up side sticky bar */
+
+.sideStickyBar {
+    float: right;
+    position: sticky;
+    top: 6%;
+    right: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sideStickyBar a {
+    background-color: #818080;
+    margin: 1px 0;
+    color: blanchedalmond;
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    width: 110px;
+    padding: 30px 0;
+    transition: 0.8s;
+}
+
+.sideStickyBar a:hover {
+    color: rgb(178, 164, 142);
+}
+
+/* experiences table */
+
+#experiences table {
+    margin: 0 0 3% 0;
+}
+
+#experiences th {
+    padding: 8px 0;
+    width: 50%;
+    text-align: left;
+}
+#experiences td {
+    padding: 8px 0;
+    width: 50%;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* skills part in abilities*/
+
+.skills {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills .stars {
+    text-align: right;
+    width: 150px;
+}
+
+.skills .skilname {
+    width: 200px;
+}
+
+.skills img{
+    max-width: 18px;
+    transition: 0.25s ease-out;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.skills tr:hover {
+    background-color: #F2F2F2;
+}
+
+.skills tr:hover .stars>img {
+    padding-left: 3px;
+}
+
+/* contact me part */
+
+.contactColor {
+    background-color: #434242;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact img {
+    max-width: 7%;
+    margin: 2% 2%;
+}
+
+footer {
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 1.3em;
+}

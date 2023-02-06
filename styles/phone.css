@@ -1,0 +1,53 @@
+/* below 540pxs screen size} */
+
+/* home text */
+.home>section h1 {
+    font-size: 2em;
+    line-height: 0%;
+}
+.home>section p {
+    font-size: 1.2em;
+}
+
+/* setting up main container class */
+.container .head h1 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+
+.container .head p {
+    font-size: 0.8em;
+}
+
+.subfieldName {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+
+/* for tables in experiences section */
+#experiences th {
+    vertical-align: top;
+    padding: 8px 5px;
+}
+#experiences table {
+    font-size: 13px;
+}
+
+/* for tables in abilities section */
+.skills {
+    font-size: 13px;
+}
+.skills img{
+    max-width: 13px;
+}
+
+/* setting contact me images */
+.contact img {
+    max-width: 10%;
+    margin: 2% 2%;
+}
+
+/* setting footer */
+footer {
+    font-size: 1em;
+}
