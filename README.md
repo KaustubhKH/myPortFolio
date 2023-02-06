@@ -1,2 +1,2 @@
 # MyPersonalPortfolioSite
-here i store all my personal portfolios websites
+here i store all my personal portfolio websites
